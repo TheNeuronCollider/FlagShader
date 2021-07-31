@@ -96,23 +96,50 @@ Material:
     m_Floats:
     - AED: 1
     - Amplitude_Attenuation: 0.092
+    - BEHAVIOR_WHEN_LIFTING_THE_FLAG: 0
+    - Behavior_when_the_flag_is_elevated_receiving_wind: 0
+    - DescendHeight: 0
+    - Descend_Ammount: 0
+    - Descend_Height: 0
+    - Descend_Offset: 0
+    - Descend_Progress: 0
     - Elevation: 1
+    - FOLDING_THE_FLAG_WHEN_IT_ITS_NOT_LIFTED: 0
     - Flag: 0
+    - Flag_mesh_must_be_extended_over_the_x_axis_with_its_pivot_on_the_bottom_corner_near_to_the_pole: 0
+    - Fold_Ammount: 0.262
     - Fold_Stretch: 0.288
+    - Folding: 0.189
+    - For_the_pole_and_base_check_the__isThePole__boolean: 0
+    - IS_THE_POLE_OR_THE_FLAG: 0
     - IsThePole: 0
     - MaxFreq: 10
     - Max_Wind_Speed: 21.7
     - MinHeight: 0
     - Note_Flag_mesh_must_be_extended_over_the_x_axis_with_its_pivot_on_the_bottom_corner_near_to_the_pole: 0
     - Note_Flag_mesh_must_extend_over_the_X_axis_and_the_pivot_must_be_on_the_bottom_corner_near_to_the_flag_pole: 0
-    - Oscillation_Speed: 19.83
+    - Note_For_the_pole_and_base_check_the__isThePole__boolean: 0
+    - Note_For_the_pole_and_base_check_the_isThePole_boolean: 0
+    - Note_The_material_marked_with_the_isPole_option_will_not_move: 0
+    - Oscillation_Speed: 15.41
     - Pivot_must_be_located_on_th: -0.41
+    - The_material_marked_with_the_isPole_option_will_not_be_deformed: 0
+    - The_material_marked_with_the_isPole_option_will_not_move: 0
+    - Use_another_material_for_the_pole_and_base_and_activate_the_isPole_boolean: 0
     - Wave_Hor_Intensity: 0.041
+    - Wave_Intensity: 0.2
+    - Wave_Ver: 0.2
     - Wave_Ver_Intensity: 0.044
+    - Waving_Frequency: 10
+    - Waving_Intensity_Hor: 0.058
+    - Waving_Intensity_Ver: 0.038
+    - Waving_Size: 8.67
+    - When_Elevated: 0
     - Wind: 1
     - Wind_Speed: 20
     - _: 0
     - _1: 0
+    - _2: 0
     - _AlphaClip: 0
     - _Blend: 0
     - _BumpScale: 1
