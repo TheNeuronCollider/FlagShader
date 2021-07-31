@@ -113,7 +113,7 @@ Material:
     - For_the_pole_and_base_check_the__isThePole__boolean: 0
     - IS_THE_POLE_OR_THE_FLAG: 0
     - IsThePole: 0
-    - Lift_Progress: 1
+    - Lift_Progress: 0
     - MaxFreq: 10
     - Max_Wind_Speed: 21.7
     - MinHeight: 0
@@ -131,9 +131,9 @@ Material:
     - Wave_Intensity: 0.2
     - Wave_Ver: 0.2
     - Wave_Ver_Intensity: 0.044
-    - Waving_Frequency: 10
+    - Waving_Frequency: 6.92
     - Waving_Intensity_Hor: 0.058
-    - Waving_Intensity_Ver: 0.038
+    - Waving_Intensity_Ver: 0.05
     - Waving_Size: 8.67
     - When_Elevated: 0
     - Wind: 1
