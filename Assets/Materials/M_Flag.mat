@@ -102,7 +102,7 @@ Material:
     - Descend_Ammount: 0
     - Descend_Height: 0
     - Descend_Offset: 0
-    - Descend_Progress: 0
+    - Descend_Progress: 0.17
     - Elevation: 1
     - FOLDING_THE_FLAG_WHEN_IT_ITS_NOT_LIFTED: 0
     - Flag: 0

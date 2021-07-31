@@ -1543,8 +1543,8 @@
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.StickyNoteData",
     "m_ObjectId": "c3f29869ba3047a7b139e1f89ab4778d",
-    "m_Title": "DESCENSO",
-    "m_Content": "Se calculan dos vectores, el primero sobre la horizontal desde el poste hacia el pixel, el segundo es este mismo vector pero \"girado\" 90 grados hacia abajo para alinearlo con el poste (como si cayera).\n\nSe usan estos vectores para hacer una interpolación mientras más disminuya la cantidad de viento (0 a 1)\n\n",
+    "m_Title": "DESCEND",
+    "m_Content": "",
     "m_TextSize": 0,
     "m_Theme": 0,
     "m_Position": {
