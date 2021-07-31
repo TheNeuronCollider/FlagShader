@@ -101,8 +101,8 @@ Material:
     - DescendHeight: 0
     - Descend_Ammount: 0
     - Descend_Height: 0
-    - Descend_Offset: 0
-    - Descend_Progress: 0.17
+    - Descend_Offset: -1.93
+    - Descend_Progress: 1
     - Elevation: 1
     - FOLDING_THE_FLAG_WHEN_IT_ITS_NOT_LIFTED: 0
     - Flag: 0
@@ -113,6 +113,7 @@ Material:
     - For_the_pole_and_base_check_the__isThePole__boolean: 0
     - IS_THE_POLE_OR_THE_FLAG: 0
     - IsThePole: 0
+    - Lift_Progress: 1
     - MaxFreq: 10
     - Max_Wind_Speed: 21.7
     - MinHeight: 0
@@ -136,7 +137,7 @@ Material:
     - Waving_Size: 8.67
     - When_Elevated: 0
     - Wind: 1
-    - Wind_Speed: 20
+    - Wind_Speed: 19.39
     - _: 0
     - _1: 0
     - _2: 0
