@@ -91,9 +91,6 @@
             "m_Id": "c5c5ed7da8004dc9a4b063d7660625a9"
         },
         {
-            "m_Id": "4bde58ddf379415a831bc71ef8d3b893"
-        },
-        {
             "m_Id": "567bc3169c0a4942b74a3751ce8cbaff"
         },
         {
@@ -189,20 +186,6 @@
         {
             "m_OutputSlot": {
                 "m_Node": {
-                    "m_Id": "4bde58ddf379415a831bc71ef8d3b893"
-                },
-                "m_SlotId": 1
-            },
-            "m_InputSlot": {
-                "m_Node": {
-                    "m_Id": "eb9191aa81c64cfcbeee57b18c0fbad2"
-                },
-                "m_SlotId": 1271153319
-            }
-        },
-        {
-            "m_OutputSlot": {
-                "m_Node": {
                     "m_Id": "4bdfe2a6a5f441ba94d01ceb2fc29a8b"
                 },
                 "m_SlotId": 0
@@ -226,20 +209,6 @@
                     "m_Id": "eb9191aa81c64cfcbeee57b18c0fbad2"
                 },
                 "m_SlotId": -2090831348
-            }
-        },
-        {
-            "m_OutputSlot": {
-                "m_Node": {
-                    "m_Id": "567bc3169c0a4942b74a3751ce8cbaff"
-                },
-                "m_SlotId": 1
-            },
-            "m_InputSlot": {
-                "m_Node": {
-                    "m_Id": "4bde58ddf379415a831bc71ef8d3b893"
-                },
-                "m_SlotId": 1712443362
             }
         },
         {
@@ -377,9 +346,9 @@
             },
             "m_InputSlot": {
                 "m_Node": {
-                    "m_Id": "4bde58ddf379415a831bc71ef8d3b893"
+                    "m_Id": "eb9191aa81c64cfcbeee57b18c0fbad2"
                 },
-                "m_SlotId": -591867757
+                "m_SlotId": 1271153319
             }
         },
         {
@@ -669,7 +638,7 @@
     "m_ObjectId": "062e972a24ac45ef97c886c7ad59f09f",
     "m_Title": "Descend and fold",
     "m_Position": {
-        "x": -3918.000244140625,
+        "x": -3982.999755859375,
         "y": 571.0
     }
 }
@@ -813,29 +782,6 @@
     "m_StageCapability": 3,
     "m_Value": 0.0,
     "m_DefaultValue": 0.0,
-    "m_Labels": []
-}
-
-{
-    "m_SGVersion": 0,
-    "m_Type": "UnityEditor.ShaderGraph.Vector3MaterialSlot",
-    "m_ObjectId": "0e41e0a76fb446238b852fabc469fba2",
-    "m_Id": -591867757,
-    "m_DisplayName": "Raw Descend Pos",
-    "m_SlotType": 0,
-    "m_Hidden": false,
-    "m_ShaderOutputName": "Raw_Descend_Pos",
-    "m_StageCapability": 3,
-    "m_Value": {
-        "x": 0.0,
-        "y": 0.0,
-        "z": 0.0
-    },
-    "m_DefaultValue": {
-        "x": 0.0,
-        "y": 0.0,
-        "z": 0.0
-    },
     "m_Labels": []
 }
 
@@ -1326,53 +1272,6 @@
         "x": 0.0,
         "y": 1.0
     }
-}
-
-{
-    "m_SGVersion": 0,
-    "m_Type": "UnityEditor.ShaderGraph.SubGraphNode",
-    "m_ObjectId": "4bde58ddf379415a831bc71ef8d3b893",
-    "m_Group": {
-        "m_Id": "062e972a24ac45ef97c886c7ad59f09f"
-    },
-    "m_Name": "SG_Flag_DescendSmooth",
-    "m_DrawState": {
-        "m_Expanded": true,
-        "m_Position": {
-            "serializedVersion": "2",
-            "x": -3469.0,
-            "y": 632.0,
-            "width": 250.0,
-            "height": 118.0
-        }
-    },
-    "m_Slots": [
-        {
-            "m_Id": "0e41e0a76fb446238b852fabc469fba2"
-        },
-        {
-            "m_Id": "d886cf1fd8874979818b5108644630d1"
-        },
-        {
-            "m_Id": "d10729fbb9304dd2890e8d4aaf0db900"
-        }
-    ],
-    "synonyms": [],
-    "m_Precision": 0,
-    "m_PreviewExpanded": false,
-    "m_PreviewMode": 0,
-    "m_CustomColors": {
-        "m_SerializableColors": []
-    },
-    "m_SerializedSubGraph": "{\n    \"subGraph\": {\n        \"fileID\": -5475051401550479605,\n        \"guid\": \"2f98065416dc0e146861698f696d77a1\",\n        \"type\": 3\n    }\n}",
-    "m_PropertyGuids": [
-        "61909606-4928-4688-83bd-f49d869b121d",
-        "f02a82e4-043b-4df7-9adf-926bb0a8dff1"
-    ],
-    "m_PropertyIds": [
-        -591867757,
-        1712443362
-    ]
 }
 
 {
@@ -2682,29 +2581,6 @@
 
 {
     "m_SGVersion": 0,
-    "m_Type": "UnityEditor.ShaderGraph.Vector3MaterialSlot",
-    "m_ObjectId": "d10729fbb9304dd2890e8d4aaf0db900",
-    "m_Id": 1,
-    "m_DisplayName": "Slerp_Pos",
-    "m_SlotType": 1,
-    "m_Hidden": false,
-    "m_ShaderOutputName": "Slerp_Pos",
-    "m_StageCapability": 3,
-    "m_Value": {
-        "x": 0.0,
-        "y": 0.0,
-        "z": 0.0
-    },
-    "m_DefaultValue": {
-        "x": 0.0,
-        "y": 0.0,
-        "z": 0.0
-    },
-    "m_Labels": []
-}
-
-{
-    "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.BranchNode",
     "m_ObjectId": "d10e1eb600e64dac85fcfbf9015f8135",
     "m_Group": {
@@ -2766,21 +2642,6 @@
         "z": 0.0,
         "w": 0.0
     }
-}
-
-{
-    "m_SGVersion": 0,
-    "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
-    "m_ObjectId": "d886cf1fd8874979818b5108644630d1",
-    "m_Id": 1712443362,
-    "m_DisplayName": "Wind?",
-    "m_SlotType": 0,
-    "m_Hidden": false,
-    "m_ShaderOutputName": "Wind",
-    "m_StageCapability": 3,
-    "m_Value": 0.0,
-    "m_DefaultValue": 0.0,
-    "m_Labels": []
 }
 
 {
