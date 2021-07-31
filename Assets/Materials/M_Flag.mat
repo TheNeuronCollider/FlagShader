@@ -22,7 +22,7 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: M_Flag
   m_Shader: {fileID: -6465566751694194690, guid: 994649e1335effc4da5d1976785d3af9, type: 3}
-  m_ShaderKeywords: 
+  m_ShaderKeywords: AED_B
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -94,17 +94,25 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
+    - AED: 1
     - Amplitude_Attenuation: 0.092
     - Elevation: 1
+    - Flag: 0
     - Fold_Stretch: 0.288
     - IsThePole: 0
     - MaxFreq: 10
-    - Max_Wind_Speed: 20
+    - Max_Wind_Speed: 21.7
     - MinHeight: 0
-    - Wave_Hor_Intensity: 0.1
+    - Note_Flag_mesh_must_be_extended_over_the_x_axis_with_its_pivot_on_the_bottom_corner_near_to_the_pole: 0
+    - Note_Flag_mesh_must_extend_over_the_X_axis_and_the_pivot_must_be_on_the_bottom_corner_near_to_the_flag_pole: 0
+    - Oscillation_Speed: 19.83
+    - Pivot_must_be_located_on_th: -0.41
+    - Wave_Hor_Intensity: 0.041
     - Wave_Ver_Intensity: 0.044
     - Wind: 1
     - Wind_Speed: 20
+    - _: 0
+    - _1: 0
     - _AlphaClip: 0
     - _Blend: 0
     - _BumpScale: 1
@@ -131,6 +139,7 @@ Material:
     - _Surface: 0
     - _WorkflowMode: 1
     - _ZWrite: 1
+    - __1: 0
     m_Colors:
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}

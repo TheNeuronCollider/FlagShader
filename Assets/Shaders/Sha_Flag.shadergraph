@@ -4,6 +4,15 @@
     "m_ObjectId": "11ec8dbcb9fb46ee8e47da19fb63ad0f",
     "m_Properties": [
         {
+            "m_Id": "f59c979ec5d44ad9aa7e75e2be247313"
+        },
+        {
+            "m_Id": "304a8274ce1c49b09a19032397836b0b"
+        },
+        {
+            "m_Id": "22d60cf95fe9438e8d1156f8794bffb4"
+        },
+        {
             "m_Id": "4f3baf91279249f2bb7c47c394077f51"
         },
         {
@@ -939,6 +948,26 @@
 
 {
     "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.Internal.BooleanShaderProperty",
+    "m_ObjectId": "22d60cf95fe9438e8d1156f8794bffb4",
+    "m_Guid": {
+        "m_GuidSerialized": "e4fdd68c-fbd7-4013-8fd3-37b7387ba590"
+    },
+    "m_Name": "=============================================================",
+    "m_DefaultRefNameVersion": 1,
+    "m_RefNameGeneratedByDisplayName": "=============================================================",
+    "m_DefaultReferenceName": "__1",
+    "m_OverrideReferenceName": "",
+    "m_GeneratePropertyBlock": true,
+    "m_Precision": 0,
+    "overrideHLSLDeclaration": false,
+    "hlslDeclarationOverride": 0,
+    "m_Hidden": false,
+    "m_Value": false
+}
+
+{
+    "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.DynamicVectorMaterialSlot",
     "m_ObjectId": "23c9e853076d41dd92625154675ba814",
     "m_Id": 3,
@@ -1056,6 +1085,26 @@
         "x": 0.0,
         "y": 1.0
     }
+}
+
+{
+    "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.Internal.BooleanShaderProperty",
+    "m_ObjectId": "304a8274ce1c49b09a19032397836b0b",
+    "m_Guid": {
+        "m_GuidSerialized": "853aa738-5542-47c0-beaf-e0ebfb311360"
+    },
+    "m_Name": "Note: Flag mesh must be extended over the x axis with its pivot on the bottom corner near to the pole.",
+    "m_DefaultRefNameVersion": 1,
+    "m_RefNameGeneratedByDisplayName": "Note: Flag mesh must be extended over the x axis with its pivot on the bottom corner near to the pole.",
+    "m_DefaultReferenceName": "Note_Flag_mesh_must_be_extended_over_the_x_axis_with_its_pivot_on_the_bottom_corner_near_to_the_pole",
+    "m_OverrideReferenceName": "",
+    "m_GeneratePropertyBlock": true,
+    "m_Precision": 0,
+    "overrideHLSLDeclaration": false,
+    "hlslDeclarationOverride": 0,
+    "m_Hidden": false,
+    "m_Value": false
 }
 
 {
@@ -3241,6 +3290,26 @@
     },
     "m_Labels": [],
     "m_Space": 0
+}
+
+{
+    "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.Internal.BooleanShaderProperty",
+    "m_ObjectId": "f59c979ec5d44ad9aa7e75e2be247313",
+    "m_Guid": {
+        "m_GuidSerialized": "233a455d-786c-4e6b-9fb9-424fafbd5fb2"
+    },
+    "m_Name": "==============================================================",
+    "m_DefaultRefNameVersion": 1,
+    "m_RefNameGeneratedByDisplayName": "==============================================================",
+    "m_DefaultReferenceName": "_",
+    "m_OverrideReferenceName": "",
+    "m_GeneratePropertyBlock": true,
+    "m_Precision": 0,
+    "overrideHLSLDeclaration": false,
+    "hlslDeclarationOverride": 0,
+    "m_Hidden": false,
+    "m_Value": false
 }
 
 {
