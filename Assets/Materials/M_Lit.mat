@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-8024586512806665777
+--- !u!114 &-2418485540868856739
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}
@@ -20,8 +20,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: M_Flag_Pole
-  m_Shader: {fileID: -6465566751694194690, guid: 994649e1335effc4da5d1976785d3af9, type: 3}
+  m_Name: M_Lit
+  m_Shader: {fileID: -6465566751694194690, guid: da314811286ac8543a0b1d3c8fa83577, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
@@ -72,16 +72,8 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    - _SampleTexture2D_c1b868308c984c76b7312565d1531893_Texture_1:
-        m_Texture: {fileID: 2800000, guid: d9e9d087f3bff8840868f7e52f1aece5, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
     - _SpecGlossMap:
         m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _Texture2D:
-        m_Texture: {fileID: 2800000, guid: d9e9d087f3bff8840868f7e52f1aece5, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - unity_Lightmaps:
@@ -98,24 +90,6 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - Amplitude_Attenuation: 0.2
-    - Descend_Offset: -2
-    - Flag_mesh_must_be_extended_over_the_x_axis_with_its_pivot_on_the_bottom_corner_near_to_the_pole: 0
-    - Fold_Stretch: 0
-    - Folding: 0
-    - IsThePole: 1
-    - Lift_Progress: 1
-    - MaxFreq: 0
-    - Max_Wind_Speed: 10
-    - Use_another_material_for_the_pole_and_base_and_activate_the_isPole_boolean: 0
-    - Wave_Hor_Intensity: 0.2
-    - Wave_Ver_Intensity: 0.2
-    - Waving_Frequency: 10
-    - Waving_Intensity_Hor: 0.2
-    - Waving_Intensity_Ver: 0.2
-    - Wind: 0.394
-    - Wind_Speed: 0
-    - _: 0
     - _AlphaClip: 0
     - _Blend: 0
     - _BumpScale: 1
@@ -142,7 +116,6 @@ Material:
     - _Surface: 0
     - _WorkflowMode: 1
     - _ZWrite: 1
-    - __1: 0
     m_Colors:
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
