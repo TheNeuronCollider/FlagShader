@@ -162,7 +162,11 @@
             "m_Id": "c7fbcbaa25434a7fa9c8c772e5a2fbab"
         }
     ],
-    "m_StickyNoteDatas": [],
+    "m_StickyNoteDatas": [
+        {
+            "m_Id": "a9192e92c23b44ddabf450e1f54c27ae"
+        }
+    ],
     "m_Edges": [
         {
             "m_OutputSlot": {
@@ -559,8 +563,8 @@
     ],
     "m_VertexContext": {
         "m_Position": {
-            "x": -1000.9998168945313,
-            "y": 447.0000305175781
+            "x": -1076.0,
+            "y": 394.0
         },
         "m_Blocks": [
             {
@@ -576,8 +580,8 @@
     },
     "m_FragmentContext": {
         "m_Position": {
-            "x": -993.0,
-            "y": 674.9999389648438
+            "x": -1077.0001220703125,
+            "y": 647.9999389648438
         },
         "m_Blocks": [
             {
@@ -1444,17 +1448,17 @@
     "m_Type": "UnityEditor.ShaderGraph.RedirectNodeData",
     "m_ObjectId": "31b31c8a08f84414b9e82853a11e26aa",
     "m_Group": {
-        "m_Id": ""
+        "m_Id": "062e972a24ac45ef97c886c7ad59f09f"
     },
     "m_Name": "Redirect Node",
     "m_DrawState": {
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -3569.0,
-            "y": 822.0,
-            "width": 56.0,
-            "height": 24.000001907348634
+            "x": -3569.000244140625,
+            "y": 846.0000610351563,
+            "width": 56.000003814697269,
+            "height": 24.0
         }
     },
     "m_Slots": [
@@ -1486,9 +1490,9 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -3944.999755859375,
-            "y": 831.0,
-            "width": 150.99998474121095,
+            "x": -3920.0,
+            "y": 961.0,
+            "width": 151.0,
             "height": 34.0
         }
     },
@@ -1521,10 +1525,10 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -3461.0,
+            "x": -3474.999755859375,
             "y": 625.0,
-            "width": 56.000003814697269,
-            "height": 24.000001907348634
+            "width": 55.999996185302737,
+            "height": 24.0
         }
     },
     "m_Slots": [
@@ -1645,17 +1649,17 @@
     "m_Type": "UnityEditor.ShaderGraph.SampleGradient",
     "m_ObjectId": "377ca084c1d248c4953b820b6a60143f",
     "m_Group": {
-        "m_Id": ""
+        "m_Id": "062e972a24ac45ef97c886c7ad59f09f"
     },
     "m_Name": "Sample Gradient",
     "m_DrawState": {
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -3765.0,
-            "y": 1105.0,
-            "width": 207.99998474121095,
-            "height": 302.0
+            "x": -3756.0,
+            "y": 783.0,
+            "width": 168.0,
+            "height": 118.0
         }
     },
     "m_Slots": [
@@ -1714,10 +1718,10 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -2717.000244140625,
+            "x": -2724.000244140625,
             "y": 836.0000610351563,
-            "width": 56.0,
-            "height": 24.000001907348634
+            "width": 56.000003814697269,
+            "height": 24.0
         }
     },
     "m_Slots": [
@@ -1742,17 +1746,17 @@
     "m_Type": "UnityEditor.ShaderGraph.GradientNode",
     "m_ObjectId": "398d84ef4371442b88b746180f8e3595",
     "m_Group": {
-        "m_Id": ""
+        "m_Id": "062e972a24ac45ef97c886c7ad59f09f"
     },
     "m_Name": "Gradient",
     "m_DrawState": {
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -3763.0,
-            "y": 985.0,
-            "width": 207.99998474121095,
-            "height": 103.99999237060547
+            "x": -3790.0,
+            "y": 680.0,
+            "width": 208.0,
+            "height": 104.0
         }
     },
     "m_Slots": [
@@ -1819,10 +1823,10 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -2800.0,
-            "y": 687.0,
-            "width": 56.000003814697269,
-            "height": 24.000001907348634
+            "x": -2803.0,
+            "y": 690.0,
+            "width": 56.0,
+            "height": 24.0
         }
     },
     "m_Slots": [
@@ -1932,8 +1936,8 @@
     "m_ObjectId": "51452d8a36bc4cb5875f54d13e21f7b4",
     "m_Title": "Only move the flag, ignore the pole",
     "m_Position": {
-        "x": -1609.9998779296875,
-        "y": 280.0
+        "x": -1640.0,
+        "y": 289.0
     }
 }
 
@@ -2369,9 +2373,9 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -2139.0,
-            "y": 500.0000305175781,
-            "width": 164.0,
+            "x": -2134.0,
+            "y": 501.0000305175781,
+            "width": 164.00001525878907,
             "height": 34.0
         }
     },
@@ -2541,9 +2545,9 @@
         "m_Position": {
             "serializedVersion": "2",
             "x": -2806.0,
-            "y": 387.0,
-            "width": 56.000003814697269,
-            "height": 24.000001907348634
+            "y": 388.0,
+            "width": 56.0,
+            "height": 24.0
         }
     },
     "m_Slots": [
@@ -2693,6 +2697,26 @@
         "m_SerializableColors": []
     },
     "m_SerializedDescriptor": "SurfaceDescription.Emission"
+}
+
+{
+    "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.StickyNoteData",
+    "m_ObjectId": "a9192e92c23b44ddabf450e1f54c27ae",
+    "m_Title": "Keep it folded for a while",
+    "m_Content": "The flag mantains its completely folded state for a while until it reach an specific lift progress.\n",
+    "m_TextSize": 0,
+    "m_Theme": 0,
+    "m_Position": {
+        "serializedVersion": "2",
+        "x": -3785.0,
+        "y": 577.0,
+        "width": 200.0,
+        "height": 100.0
+    },
+    "m_Group": {
+        "m_Id": ""
+    }
 }
 
 {
@@ -2852,8 +2876,8 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -3266.0,
-            "y": 770.0,
+            "x": -3256.000244140625,
+            "y": 858.0000610351563,
             "width": 115.00000762939453,
             "height": 34.0
         }
@@ -2887,9 +2911,9 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -1936.0,
-            "y": 437.0000305175781,
-            "width": 255.00001525878907,
+            "x": -1930.9998779296875,
+            "y": 438.0000305175781,
+            "width": 255.0,
             "height": 142.0
         }
     },
@@ -2968,10 +2992,10 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -2027.0,
-            "y": 840.0000610351563,
-            "width": 56.000003814697269,
-            "height": 24.0
+            "x": -2027.9996337890625,
+            "y": 961.0,
+            "width": 56.0,
+            "height": 23.999998092651368
         }
     },
     "m_Slots": [
@@ -3047,13 +3071,13 @@
     "m_Group": {
         "m_Id": "062e972a24ac45ef97c886c7ad59f09f"
     },
-    "m_Name": "SG_Flag_Descend",
+    "m_Name": "SG_Flag_FoldingOnXY",
     "m_DrawState": {
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -3465.0,
-            "y": 663.0,
+            "x": -3483.0,
+            "y": 751.0000610351563,
             "width": 232.00001525878907,
             "height": 94.0
         }
@@ -3123,8 +3147,8 @@
     "m_ObjectId": "c7fbcbaa25434a7fa9c8c772e5a2fbab",
     "m_Title": "Lift",
     "m_Position": {
-        "x": -2164.0,
-        "y": 378.0000305175781
+        "x": -2159.0,
+        "y": 379.0
     }
 }
 
@@ -3170,8 +3194,8 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -1348.0,
-            "y": 384.0,
+            "x": -1378.0,
+            "y": 392.9999694824219,
             "width": 172.0,
             "height": 142.0
         }
@@ -3324,8 +3348,8 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -2624.0,
-            "y": 483.0,
+            "x": -2632.0,
+            "y": 482.0,
             "width": 130.0,
             "height": 142.0
         }
@@ -3360,14 +3384,14 @@
     "m_Group": {
         "m_Id": "062e972a24ac45ef97c886c7ad59f09f"
     },
-    "m_Name": "SG_Flag_Folding",
+    "m_Name": "SG_Flag_FoldingOnZ",
     "m_DrawState": {
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -3124.0,
-            "y": 640.0,
-            "width": 243.00001525878907,
+            "x": -3123.0,
+            "y": 645.0,
+            "width": 243.0,
             "height": 142.0
         }
     },
@@ -3421,10 +3445,10 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -2034.0,
-            "y": 530.0,
+            "x": -2029.0,
+            "y": 531.0,
             "width": 56.000003814697269,
-            "height": 24.0
+            "height": 24.000001907348634
         }
     },
     "m_Slots": [
@@ -3456,8 +3480,8 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -1362.0,
-            "y": 343.0,
+            "x": -1391.9998779296875,
+            "y": 352.0,
             "width": 136.0,
             "height": 34.0
         }
@@ -3589,8 +3613,8 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -1584.9998779296875,
-            "y": 339.0,
+            "x": -1614.9998779296875,
+            "y": 348.0,
             "width": 206.0,
             "height": 132.0
         }
