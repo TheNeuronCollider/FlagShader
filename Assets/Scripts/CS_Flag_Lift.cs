@@ -1,18 +1,14 @@
 using System.Collections;
 using UnityEngine;
 
-public class CS_Flag : MonoBehaviour
+public class CS_Flag_Lift : MonoBehaviour
 {
     public Material flagMat;
     private float liftTarget = 1f;
     private float liftState = 1f;
-    private WaitForSeconds wait = new WaitForSeconds(0.05f);
     private float liftProgress;
 
-    private void Start()
-    {
-        StartCoroutine(ReachLiftTarget());
-    }
+
     void Update()
     {
         if (Input.touchCount >= 1)
@@ -23,20 +19,9 @@ public class CS_Flag : MonoBehaviour
             liftTarget = Mathf.Clamp(liftTarget, 0f, 1f);
         }
 
-
-        
         liftState += (liftTarget - liftState) * Time.deltaTime * 5f;
-
         flagMat.SetFloat("Lift_Progress", liftState);
     }
 
-    private IEnumerator ReachLiftTarget()
-    {
-        while (true)
-        {
 
-
-            yield return wait;
-        }
-    }
 }
