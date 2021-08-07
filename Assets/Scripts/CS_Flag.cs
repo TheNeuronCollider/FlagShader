@@ -1,7 +1,7 @@
 using System.Collections;
 using UnityEngine;
 
-public class CS_Flag_Lift : MonoBehaviour
+public class CS_Flag : MonoBehaviour
 {
     public Material flagMat;
     private float liftTarget = 1f;
@@ -10,6 +10,11 @@ public class CS_Flag_Lift : MonoBehaviour
 
 
     void Update()
+    {
+        Lift();
+    }
+
+    private void Lift()
     {
         if (Input.touchCount >= 1)
         {
@@ -23,5 +28,9 @@ public class CS_Flag_Lift : MonoBehaviour
         flagMat.SetFloat("Lift_Progress", liftState);
     }
 
+    public void OnFlagChoosen(int option)
+    {
+
+    }
 
 }
