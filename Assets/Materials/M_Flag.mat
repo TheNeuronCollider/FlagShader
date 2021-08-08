@@ -117,7 +117,7 @@ Material:
     - For_the_pole_and_base_check_the__isThePole__boolean: 0
     - IS_THE_POLE_OR_THE_FLAG: 0
     - IsThePole: 0
-    - Lift_Progress: 0.9863608
+    - Lift_Progress: 0.9999667
     - MaxFreq: 10
     - Max_Wind_Speed: 21.7
     - MinHeight: 0

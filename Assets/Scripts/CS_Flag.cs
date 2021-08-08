@@ -9,9 +9,9 @@ public class CS_Flag : MonoBehaviour
     [Header("Etiqueta de titulo en UI")]
     public GameObject label;
 
+
     private static float liftTarget = 1f;
-    private static float liftState = 1f;
-    private float liftProgress;
+    public static float liftState = 1f;
     private AudioSource audioSource;
     private static CS_Flag lastFlagChoosen;
 

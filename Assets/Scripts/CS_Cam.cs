@@ -14,7 +14,6 @@ public class CS_Cam : MonoBehaviour
     {
         Rotate();
         Inertia();
-        Zoom();
     }
 
     void Rotate()
@@ -51,10 +50,5 @@ public class CS_Cam : MonoBehaviour
         if (inertiaRotVel < 0)
             inertiaRotVel = 0;
         transform.Rotate(0, inertiaRotVel * inertiaRotDir * Time.deltaTime, 0);
-    }
-
-    void Zoom()
-    {
-
     }
 }
