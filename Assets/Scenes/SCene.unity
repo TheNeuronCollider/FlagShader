@@ -557,7 +557,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   flagMat: {fileID: 2100000, guid: 69cb18d72a410b54984bb18b841fd8fc, type: 2}
   label: {fileID: 50553611}
-  liftProgress: 0
 --- !u!82 &229371785
 AudioSource:
   m_ObjectHideFlags: 0
@@ -979,7 +978,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   flagMat: {fileID: 2100000, guid: 69cb18d72a410b54984bb18b841fd8fc, type: 2}
   label: {fileID: 79716544}
-  liftProgress: 0
 --- !u!82 &542574904
 AudioSource:
   m_ObjectHideFlags: 0
@@ -2253,7 +2251,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   flagMat: {fileID: 2100000, guid: 69cb18d72a410b54984bb18b841fd8fc, type: 2}
   label: {fileID: 97050584}
-  liftProgress: 0
 --- !u!82 &1481269306
 AudioSource:
   m_ObjectHideFlags: 0
@@ -2369,7 +2366,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   flagMat: {fileID: 2100000, guid: 69cb18d72a410b54984bb18b841fd8fc, type: 2}
   label: {fileID: 345600960}
-  liftProgress: 0
 --- !u!82 &1518487178
 AudioSource:
   m_ObjectHideFlags: 0
@@ -3048,7 +3044,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   flagMat: {fileID: 2100000, guid: 69cb18d72a410b54984bb18b841fd8fc, type: 2}
   label: {fileID: 419146559}
-  liftProgress: 0
 --- !u!82 &1933113175
 AudioSource:
   m_ObjectHideFlags: 0
@@ -3418,7 +3413,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   flagMat: {fileID: 2100000, guid: 69cb18d72a410b54984bb18b841fd8fc, type: 2}
   label: {fileID: 2120177416}
-  liftProgress: 0
 --- !u!82 &2063403875
 AudioSource:
   m_ObjectHideFlags: 0
