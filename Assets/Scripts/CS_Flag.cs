@@ -3,15 +3,46 @@ using UnityEngine;
 
 public class CS_Flag : MonoBehaviour
 {
+    [Header("Material de la bandera")]
     public Material flagMat;
-    private float liftTarget = 1f;
-    private float liftState = 1f;
-    private float liftProgress;
 
+    [Header("Etiqueta de titulo en UI")]
+    public GameObject label;
+
+    private static float liftTarget = 1f;
+    private static float liftState = 1f;
+    private float liftProgress;
+    private AudioSource audioSource;
+    private static CS_Flag lastFlagChoosen;
+
+    private void Awake()
+    {
+        audioSource = GetComponent<AudioSource>();
+    }
+
+    void OnEnable()
+    {
+        label.SetActive(true);
+        TurnOffLastFlag();
+    }
 
     void Update()
     {
         Lift();
+        AnthemVolume();
+    }
+
+    private void TurnOffLastFlag()
+    {
+        if (lastFlagChoosen != null)
+        {
+            lastFlagChoosen.gameObject.SetActive(false);
+            lastFlagChoosen.label.SetActive(false);
+        }
+
+        lastFlagChoosen = this;
+
+        audioSource.Play();
     }
 
     private void Lift()
@@ -28,9 +59,8 @@ public class CS_Flag : MonoBehaviour
         flagMat.SetFloat("Lift_Progress", liftState);
     }
 
-    public void OnFlagChoosen(int option)
+    private void AnthemVolume()
     {
-
+        audioSource.volume = liftState;
     }
-
 }

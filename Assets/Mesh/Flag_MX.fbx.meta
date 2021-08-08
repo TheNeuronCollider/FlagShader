@@ -3,11 +3,21 @@ guid: 82a082c1913570c4aaa3655690d0d579
 ModelImporter:
   serializedVersion: 21100
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Flag
+    second: {fileID: 2100000, guid: 69cb18d72a410b54984bb18b841fd8fc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Flag_Pole
+    second: {fileID: 2100000, guid: 5de327b532c80b840930d48285da5f24, type: 2}
   materials:
     materialImportMode: 2
-    materialName: 0
-    materialSearch: 1
+    materialName: 1
+    materialSearch: 2
     materialLocation: 1
   animations:
     legacyGenerateAnimations: 4
