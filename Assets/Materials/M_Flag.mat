@@ -105,7 +105,7 @@ Material:
     - DescendHeight: 0
     - Descend_Ammount: 0
     - Descend_Height: 0
-    - Descend_Offset: -4.62
+    - Descend_Offset: -4.6
     - Descend_Progress: 1
     - Elevation: 1
     - FOLDING_THE_FLAG_WHEN_IT_ITS_NOT_LIFTED: 0
@@ -113,11 +113,11 @@ Material:
     - Flag_mesh_must_be_extended_over_the_x_axis_with_its_pivot_on_the_bottom_corner_near_to_the_pole: 0
     - Fold_Ammount: 0.262
     - Fold_Stretch: 0.288
-    - Folding: 0.223
+    - Folding: 0.2
     - For_the_pole_and_base_check_the__isThePole__boolean: 0
     - IS_THE_POLE_OR_THE_FLAG: 0
     - IsThePole: 0
-    - Lift_Progress: 0
+    - Lift_Progress: 1
     - MaxFreq: 10
     - Max_Wind_Speed: 21.7
     - MinHeight: 0
@@ -135,9 +135,9 @@ Material:
     - Wave_Intensity: 0.2
     - Wave_Ver: 0.2
     - Wave_Ver_Intensity: 0.044
-    - Waving_Frequency: 6
+    - Waving_Frequency: 6.5
     - Waving_Intensity_Hor: 0.15
-    - Waving_Intensity_Ver: 0.119
+    - Waving_Intensity_Ver: 0.1
     - Waving_Size: 8.67
     - When_Elevated: 0
     - Wind: 1

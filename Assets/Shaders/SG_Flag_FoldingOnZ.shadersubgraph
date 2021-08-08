@@ -697,10 +697,10 @@
     "m_Guid": {
         "m_GuidSerialized": "f25a3915-463a-4bea-aa5f-378587075af3"
     },
-    "m_Name": "Wind?",
+    "m_Name": "LiftProgRemap",
     "m_DefaultRefNameVersion": 1,
-    "m_RefNameGeneratedByDisplayName": "Wind?",
-    "m_DefaultReferenceName": "Wind",
+    "m_RefNameGeneratedByDisplayName": "LiftProgRemap",
+    "m_DefaultReferenceName": "LiftProgRemap",
     "m_OverrideReferenceName": "",
     "m_GeneratePropertyBlock": true,
     "m_Precision": 0,
