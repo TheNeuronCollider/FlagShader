@@ -1,10 +1,15 @@
+/* 
+ * Tutorial Gestures.
+ * They tell the user to lift the flag or get it down, depending where
+ * is it at any moment.
+ */
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class CS_Tuto : MonoBehaviour
 {
-    [Header("Referencias a las animaciones de gestos para subir/bajar bandera")]
+    [Header("References to the tutorial objects in UI")]
     public GameObject gestureUp;
     public GameObject gestureDown;
 

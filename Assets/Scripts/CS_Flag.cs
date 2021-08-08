@@ -1,18 +1,25 @@
-using System.Collections;
+/* 
+ * For lifting the flag.
+ */
 using UnityEngine;
 
 public class CS_Flag : MonoBehaviour
 {
-    [Header("Material de la bandera")]
+    // Inspector
+    [Header("Material the flags are using.")]
     public Material flagMat;
 
-    [Header("Etiqueta de titulo en UI")]
+    [Header("Label of each flag on UI.")]
     public GameObject label;
 
-
-    private static float liftTarget = 1f;
-    public static float liftState = 1f;
+    // Local
+    private float liftGestureFac = 2f;
+    private float liftReachTargetFac = 5f;
     private AudioSource audioSource;
+
+    // Statics
+    public static float liftState = 0f;
+    private static float liftTarget = 0f;
     private static CS_Flag lastFlagChoosen;
 
     private void Awake()
@@ -47,15 +54,16 @@ public class CS_Flag : MonoBehaviour
 
     private void Lift()
     {
+
+        // Lifting gesture on screen is based on screen percentage.
+        // A height target is calculated and then the actual value reaches that target smoothly.
         if (Input.touchCount >= 1)
         {
-            var normDelta = Input.GetTouch(0).deltaPosition.y / Screen.height;
-            normDelta *= 2f;
-            liftTarget += normDelta;
+            liftTarget += liftGestureFac * Input.GetTouch(0).deltaPosition.y / Screen.height;
             liftTarget = Mathf.Clamp(liftTarget, 0f, 1f);
         }
 
-        liftState += (liftTarget - liftState) * Time.deltaTime * 5f;
+        liftState += (liftTarget - liftState) * Time.deltaTime * liftReachTargetFac;
         flagMat.SetFloat("Lift_Progress", liftState);
     }
 
