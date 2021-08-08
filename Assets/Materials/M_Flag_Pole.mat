@@ -99,20 +99,20 @@ Material:
     m_Ints: []
     m_Floats:
     - Amplitude_Attenuation: 0.2
-    - Descend_Offset: -2
+    - Descend_Offset: -5
     - Flag_mesh_must_be_extended_over_the_x_axis_with_its_pivot_on_the_bottom_corner_near_to_the_pole: 0
     - Fold_Stretch: 0
     - Folding: 0
     - IsThePole: 1
-    - Lift_Progress: 1
+    - Lift_Progress: 0
     - MaxFreq: 0
     - Max_Wind_Speed: 10
     - Use_another_material_for_the_pole_and_base_and_activate_the_isPole_boolean: 0
     - Wave_Hor_Intensity: 0.2
     - Wave_Ver_Intensity: 0.2
-    - Waving_Frequency: 10
-    - Waving_Intensity_Hor: 0.2
-    - Waving_Intensity_Ver: 0.2
+    - Waving_Frequency: 1
+    - Waving_Intensity_Hor: 0
+    - Waving_Intensity_Ver: 0
     - Wind: 0.394
     - Wind_Speed: 0
     - _: 0

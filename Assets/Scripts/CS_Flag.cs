@@ -59,7 +59,7 @@ public class CS_Flag : MonoBehaviour
         // A height target is calculated and then the actual value reaches that target smoothly.
         if (Input.touchCount >= 1)
         {
-            liftTarget += liftGestureFac * Input.GetTouch(0).deltaPosition.y / Screen.height;
+            liftTarget += liftGestureFac * (Input.GetTouch(0).deltaPosition.y / Screen.height);
             liftTarget = Mathf.Clamp(liftTarget, 0f, 1f);
         }
 
