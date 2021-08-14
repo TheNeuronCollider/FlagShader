@@ -15,7 +15,6 @@ public class CS_Flag : MonoBehaviour
     // Local
     private float liftGestureFac = 2f;
     private float liftReachTargetFac = 5f;
-    private float lastTouchYPos;
     private AudioSource audioSource;
 
     // Statics
