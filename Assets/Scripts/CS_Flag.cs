@@ -15,7 +15,9 @@ public class CS_Flag : MonoBehaviour
     // Local
     private float liftGestureFac = 2f;
     private float liftReachTargetFac = 5f;
+    private float lastTouchYPos;
     private AudioSource audioSource;
+
 
     // Statics
     public static float liftState = 0f;
@@ -59,10 +61,11 @@ public class CS_Flag : MonoBehaviour
         // A height target is calculated and then the actual value reaches that target smoothly.
         if (Input.touchCount >= 1)
         {
-            liftTarget += liftGestureFac * (Input.GetTouch(0).deltaPosition.y / Screen.height);
+            liftTarget += liftGestureFac * (Input.GetTouch(0).position.y - lastTouchYPos) / Screen.height;
             liftTarget = Mathf.Clamp(liftTarget, 0f, 1f);
         }
 
+        lastTouchYPos = Input.GetTouch(0).position.y;
         liftState += (liftTarget - liftState) * Time.deltaTime * liftReachTargetFac;
         flagMat.SetFloat("Lift_Progress", liftState);
     }

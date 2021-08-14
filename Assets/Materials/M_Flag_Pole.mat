@@ -22,7 +22,7 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: M_Flag_Pole
   m_Shader: {fileID: -6465566751694194690, guid: 994649e1335effc4da5d1976785d3af9, type: 3}
-  m_ShaderKeywords: 
+  m_ShaderKeywords: AED_B
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -99,10 +99,10 @@ Material:
     m_Ints: []
     m_Floats:
     - Amplitude_Attenuation: 0.2
-    - Descend_Offset: -5
+    - Descend_Offset: -4.6
     - Flag_mesh_must_be_extended_over_the_x_axis_with_its_pivot_on_the_bottom_corner_near_to_the_pole: 0
     - Fold_Stretch: 0
-    - Folding: 0
+    - Folding: 0.2
     - IsThePole: 1
     - Lift_Progress: 0
     - MaxFreq: 0
@@ -110,11 +110,11 @@ Material:
     - Use_another_material_for_the_pole_and_base_and_activate_the_isPole_boolean: 0
     - Wave_Hor_Intensity: 0.2
     - Wave_Ver_Intensity: 0.2
-    - Waving_Frequency: 1
-    - Waving_Intensity_Hor: 0
-    - Waving_Intensity_Ver: 0
+    - Waving_Frequency: 6.5
+    - Waving_Intensity_Hor: 0.2
+    - Waving_Intensity_Ver: 0.1
     - Wind: 0.394
-    - Wind_Speed: 0
+    - Wind_Speed: 12
     - _: 0
     - _AlphaClip: 0
     - _Blend: 0
